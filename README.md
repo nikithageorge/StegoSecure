@@ -5,7 +5,7 @@
 This project employs advanced image-based steganography techniques to securely embed confidential messages within digital images by modifying pixel values. The resulting encrypted image remains visually indistinguishable from the original, ensuring secure and discreet communication without raising suspicion.
 
 ## ✨ Features
-- 🔒 **Stealthy Data Hiding** – Stealthy Data Concealment – Embeds messages within pixel values with minimal perceptible distortion.
+- 🔒 **Stealthy Data Hiding** – Embeds messages within pixel values with minimal perceptible distortion.
 - 🎨 **RGB Channel Utilization** – Distributes hidden data across Red, Green, and Blue (RGB) channels for enhanced security.
 - 🔑 **Password-Protected Decryption** – Implements password-protected decryption to ensure restricted access to hidden information.
 - 📷 **Minimal Image Distortion** – Maintains the original visual quality of the image post-embedding.
@@ -48,13 +48,13 @@ This project employs advanced image-based steganography techniques to securely e
 3. The hidden message is extracted and displayed.
 
 ## 👥 End Users
-- **Cybersecurity Professionals** – Secure communication & data hiding.
-- **Journalists & Whistleblowers** – Protect sensitive information.
-- **Government & Intelligence Agencies** – Covert data transmission.
-- **General Users** – Hide personal messages securely.
+- **Cybersecurity Professionals** – Enables secure communication and covert data transmission.
+- **Journalists & Whistleblowers** – Provides a discreet method for sharing sensitive information.
+- **Government & Intelligence Agencies** –  Supports confidential data exchange and covert operations.
+- **General Users** – Offers a simple yet effective way to conceal private messages within images
 
 ## 📌 Conclusion
-This project provides a discreet and secure way to hide messages in images using steganography. By utilizing pixel manipulation and password protection, it ensures confidentiality without altering the image's appearance.
+This project leverages image-based steganography to securely conceal messages within images while maintaining their visual integrity. By utilizing pixel manipulation and password protection, it ensures confidentiality and restricted access. This approach offers a discreet, secure, and efficient method for covert communication.
 
 ## 👨‍💻 Contributors
 - **Nikitha George**

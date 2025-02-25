@@ -2,13 +2,13 @@
 # Image Steganography - Hide Secret Messages in Images
 
 ## 📌 Overview
-This project implements image-based steganography, allowing users to securely embed secret messages within an image by modifying pixel values. The modified image appears unchanged, ensuring discreet communication.
+This project employs advanced image-based steganography techniques to securely embed confidential messages within digital images by modifying pixel values. The resulting encrypted image remains visually indistinguishable from the original, ensuring secure and discreet communication without raising suspicion.
 
 ## ✨ Features
-- 🔒 **Stealthy Data Hiding** – Encodes messages within pixel values without visible distortion.
-- 🎨 **RGB Channel Utilization** – Spreads the message across Red, Green, and Blue channels.
-- 🔑 **Password-Protected Decryption** – Ensures only authorized users can retrieve the hidden message.
-- 📷 **Minimal Image Distortion** – Keeps the image visually identical after encryption.
+- 🔒 **Stealthy Data Hiding** – Stealthy Data Concealment – Embeds messages within pixel values with minimal perceptible distortion.
+- 🎨 **RGB Channel Utilization** – Distributes hidden data across Red, Green, and Blue (RGB) channels for enhanced security.
+- 🔑 **Password-Protected Decryption** – Implements password-protected decryption to ensure restricted access to hidden information.
+- 📷 **Minimal Image Distortion** – Maintains the original visual quality of the image post-embedding.
 
 ## 🛠️ Technologies Used
 - **Python** – Core programming language
@@ -17,16 +17,18 @@ This project implements image-based steganography, allowing users to securely em
 - **OS** – File handling operations
 
 ## 🚀 Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/image-steganography.git
-   cd image-steganography
-   ```
-2. Install dependencies:
+
+1. Install dependencies:
    ```sh
    pip install opencv-python numpy
    ```
-3. Place your image file (e.g., `mypic.jpg`) in the project directory.
+2. Place your image file (e.g., `picture.jpg`) in the project directory.
+3. Run the encryption script:
+    ```sh
+    python encrypt.py
+      ```
+
+
 
 ## 🔐 Usage
 ### 📝 Encryption

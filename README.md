@@ -1,5 +1,5 @@
 # StegoSecure
-# Image Steganography - Hide Secret Messages in Images
+# # Image Steganography - Conceal Confidential Messages in Images
 
 ## 📌 Overview
 This project employs advanced image-based steganography techniques to securely embed confidential messages within digital images by modifying pixel values. The resulting encrypted image remains visually indistinguishable from the original, ensuring secure and discreet communication without raising suspicion.
